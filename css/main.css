@@ -8,10 +8,40 @@ html {
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  -text-size-adjust: 100%;
+  text-size-adjust: 100%;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #e2e2e2;
+}
+
+h1 {
+  text-align: left;
+}
+
+ ul {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  list-style-type: none;
+  color: #0074d9;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+  background-color: #0074d9;
+  color: #fff;
 }
