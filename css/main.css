@@ -29,7 +29,7 @@ h1 {
   text-align: left;
 }
 
-header nav {
+header div {
   display: inline-block;
 }
 
@@ -41,10 +41,18 @@ ul {
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:hover {
   background-color: #0074d9;
   color: #fff;
+}
+
+.grid {
+  overflow: hidden;
+}
+
+.type {
+  font-family: sans-serif;
 }
