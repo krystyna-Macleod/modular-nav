@@ -26,7 +26,7 @@ header {
 }
 
 h1 {
-  text-align: left;
+  text-align: center;
 }
 
 header div {
@@ -35,7 +35,7 @@ header div {
 
 ul {
   text-decoration: none;
-  text-align: center;
+  text-align: left;
   list-style-type: none;
   color: #0074d9;
 }
@@ -51,6 +51,7 @@ a {
 a:hover {
   background-color: #0074d9;
   color: #fff;
+  padding: .75em;
 }
 
 .grid {
