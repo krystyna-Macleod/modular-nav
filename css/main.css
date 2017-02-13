@@ -29,8 +29,11 @@ h1 {
   text-align: left;
 }
 
- ul {
+header nav {
   display: inline-block;
+}
+
+ul {
   text-decoration: none;
   text-align: center;
   list-style-type: none;
