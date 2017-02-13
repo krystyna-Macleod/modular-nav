@@ -40,6 +40,10 @@ ul {
   color: #0074d9;
 }
 
+li {
+  display: inline-block;
+}
+
 a {
   text-decoration: none;
 }
